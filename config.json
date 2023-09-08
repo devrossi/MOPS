@@ -12,5 +12,10 @@
     "tablespace_size": 1,
     "tablespace_quota": 1,
     "password": "your_schema_password"
+  },
+  "dataLoad": {
+    "num_rows": 10000,
+    "num_threads": 1,
+    "parallel": 1
   }
 }
